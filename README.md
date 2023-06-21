@@ -1,5 +1,9 @@
 # AIBlobTrackingTD
 
+# LiDAR
+YDLiDAR X2
+Hokuyo is expensive for me, someone buy me 
+
 # Methods
 ### training to make AI model
 - data clustering(x, y)
