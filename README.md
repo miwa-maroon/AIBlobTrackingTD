@@ -11,6 +11,13 @@ Hokuyo is expensive for me, someone buy me
 4. convert onnx
 5. run onnx in touchdesigner
 
+or
+
+1. collect lidar points and blob track chop data
+2. train with 2 data above by (tensorflow or pytorch)
+3. convert onnx
+4. run onnx in touchdesigner
+
 # Methods
 ### training to make AI model
 - data clustering(x, y)
@@ -38,9 +45,7 @@ Hokuyo is expensive for me, someone buy me
 
 # result
 - data clustering(x, y)
-  - DBSCAN(Sk-learn) ->
-  - K-Means(sk-learn) ->
-  - K-prototypes ->
+  - K-Means(sk-learn) -> Not good
   - Point-Net(Pytorch, tensorflow) ->
   - Point-Net++(Pytorch, tensorflow) ->
   - KPConv(Pytorch) ->
