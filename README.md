@@ -15,6 +15,7 @@ Hokuyo is expensive for me, someone buy me
 ### training to make AI model
 - data clustering(x, y)
   - K-Means(sk-learn)
+  - MiniBatchiKmeans(if i use more data, it's faster than kmeans)
   - Point-Net(Pytorch, tensorflow)
   - Point-Net++(Pytorch, tensorflow)
   - KPConv(Pytorch)
