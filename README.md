@@ -4,6 +4,13 @@
 YDLiDAR X2
 Hokuyo is expensive for me, someone buy me 
 
+# develop process
+1. see if the method work with one sample data
+2. if so, set label as blobs postions
+3. training in colab
+4. convert onnx
+5. run onnx in touchdesigner
+
 # Methods
 ### training to make AI model
 - data clustering(x, y)
