@@ -14,9 +14,7 @@ Hokuyo is expensive for me, someone buy me
 # Methods
 ### training to make AI model
 - data clustering(x, y)
-  - DBSCAN(Sk-learn)
   - K-Means(sk-learn)
-  - K-prototypes
   - Point-Net(Pytorch, tensorflow)
   - Point-Net++(Pytorch, tensorflow)
   - KPConv(Pytorch)
