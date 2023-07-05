@@ -29,6 +29,7 @@ or
   - PointCNN(Pytorch)
   - VoteNet(Pytorch)
   - PointConv(tensorflow)
+  - OpenPCDet(Pytorch)
 - convert to image
   - Histogram-Based Approach with CNN (tensorflow or pytorch)
 - object detectin
@@ -42,6 +43,10 @@ or
 ### How predicted disappared object due to occlusion
 - Temporal Analysis(predict by past motion using KalmanFilter)
 - Use RNN or LSTM to predict current location by past movement
+
+### a few points in the case of long distance
+- Data agumentation
+- 
 
 # result
 - data clustering(x, y)
