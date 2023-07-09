@@ -11,6 +11,7 @@ Hokuyo is expensive for me, someone buy me
 4. Test
 5. Convert onnx
 
+or
 
 1. collect lidar points and blob track chop data(0.1msec)
 2. Create model (LSTM or RNN)
