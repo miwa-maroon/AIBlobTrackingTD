@@ -5,18 +5,18 @@ YDLiDAR X2
 Hokuyo is expensive for me, someone buy me 
 
 # develop process
-1. see if the method work with one sample data
-2. if so, set label as blobs postions
-3. training in colab
+1. collect lidar points
+2. Create model (PointNet and PointPillar)
+3. Train
+4. Test
+5. Convert onnx
+
+
+1. collect lidar points and blob track chop data(0.1msec)
+2. Create model (LSTM or RNN)
+3. train with 2 data above by (tensorflow or pytorch)
 4. convert onnx
 5. run onnx in touchdesigner
-
-or
-
-1. collect lidar points and blob track chop data
-2. train with 2 data above by (tensorflow or pytorch)
-3. convert onnx
-4. run onnx in touchdesigner
 
 # Methods
 ### training to make AI model
